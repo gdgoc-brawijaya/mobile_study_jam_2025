@@ -140,26 +140,6 @@ Flutter Doctor akan menampilkan tanda:
 ![Paste path into New entry](assets/screenshots/welcome_screen.png)
 ![Paste path into New entry](assets/screenshots/flutter_plugin.png)
 ![Paste path into New entry](assets/screenshots/dart_plugin.png)
-
----
-
-## 6. Konfigurasi Flutter SDK di Android Studio
-
-### Langkah 6.1: Setting Flutter SDK Path
-1. Buka Android Studio
-2. Klik **File → Settings** (atau tekan `Ctrl + Alt + S`)
-3. Navigasi ke **Languages & Frameworks → Flutter**
-4. Pada field **Flutter SDK path**, masukkan path: `C:\src\flutter` (sesuaikan dengan lokasi instalasi Anda)
-5. Klik **Apply** dan **OK**
-
-`[Screenshot: Android Studio Settings - Flutter SDK Path]`
-
-### Langkah 6.2: Verifikasi Konfigurasi
-1. Jalankan perintah `flutter doctor` kembali di terminal
-2. Pastikan Android Studio sudah terdeteksi dengan checkmark hijau
-
-`[Screenshot: Flutter doctor menunjukkan Android Studio terdeteksi]`
-
 ---
 
 ## 7. Setup Android SDK dan Accept Licenses
@@ -173,7 +153,8 @@ Flutter Doctor akan menampilkan tanda:
 3. Tekan `y` (yes) untuk menerima semua lisensi Android SDK
 4. Tunggu hingga proses selesai
 
-`[Screenshot: Proses accept Android licenses di terminal]`
+![Paste path into New entry](assets/screenshots/license1.png)
+![Paste path into New entry](assets/screenshots/license2.png)
 
 ---
 
@@ -187,7 +168,7 @@ Flutter Doctor akan menampilkan tanda:
 4. Pastikan **Flutter SDK path** sudah terisi dengan benar
 5. Klik **Next**
 
-`[Screenshot: New Flutter Project - Select Project Type]`
+![Paste path into New entry](assets/screenshots/new_flutter_project.png)
 
 ### Langkah 8.2: Konfigurasi Project
 1. **Project name**: Masukkan nama project (contoh: `my_first_app`)
@@ -198,16 +179,16 @@ Flutter Doctor akan menampilkan tanda:
 5. **Android language**: Pilih **Kotlin** (rekomendasi)
 6. **iOS language**: Pilih **Swift** (rekomendasi)
 7. **Platforms**: Centang platform yang ingin didukung (Android, iOS, Web, dll)
-8. Klik **Finish**
+8. Klik **Create**
 
-`[Screenshot: Configure New Flutter Project - Project Details]`
+![Paste path into New entry](assets/screenshots/config_proyek.png)
 
 ### Langkah 8.3: Menunggu Project Dibuat
 1. Android Studio akan membuat struktur project Flutter
 2. Tunggu hingga proses indexing dan download dependencies selesai
 3. Perhatikan progress bar di bagian bawah Android Studio
 
-`[Screenshot: Android Studio creating Flutter project dan indexing]`
+![Paste path into New entry](assets/screenshots/create_p_done.png)
 
 ---
 
@@ -223,7 +204,9 @@ Flutter Doctor akan menampilkan tanda:
 6. Beri nama emulator, lalu klik **Finish**
 7. Klik tombol **Play** untuk menjalankan emulator
 
-`[Screenshot: Device Manager - Create Virtual Device]`
+![Paste path into New entry](assets/screenshots/create_emulator1.png)
+![Paste path into New entry](assets/screenshots/create_emulator_2.png)
+![Paste path into New entry](assets/screenshots/create_emulator_3.png)
 
 **Opsi B: Menggunakan Physical Device**
 1. Aktifkan **Developer Options** di smartphone Android
@@ -232,8 +215,6 @@ Flutter Doctor akan menampilkan tanda:
 4. Pilih **File Transfer** mode di smartphone
 5. Device akan muncul di dropdown device selector Android Studio
 
-`[Screenshot: Device selector menampilkan connected device]`
-
 ### Langkah 9.2: Running Flutter App
 1. Pastikan device/emulator sudah aktif dan terdeteksi
 2. Pilih device dari dropdown di toolbar
@@ -241,15 +222,7 @@ Flutter Doctor akan menampilkan tanda:
 4. Tunggu proses build dan deploy selesai
 5. Aplikasi akan muncul di emulator/device
 
-`[Screenshot: Flutter app running di emulator - default counter app]`
-
-### Langkah 9.3: Hot Reload
-Saat melakukan perubahan kode:
-1. Simpan file dengan `Ctrl + S`
-2. Klik tombol **Hot Reload** (ikon petir) atau tekan `Ctrl + \`
-3. Perubahan akan langsung terlihat tanpa rebuild penuh
-
-`[Screenshot: Toolbar Android Studio menunjukkan tombol Hot Reload]`
+![Paste path into New entry](assets/screenshots/emulator.png)
 
 ---
 
@@ -271,7 +244,7 @@ Pastikan semua komponen menampilkan status ✓:
 - ✓ VS Code (opsional)
 - ✓ Connected device
 
-`[Screenshot: Output flutter doctor -v showing all checks passed]`
+![Paste path into New entry](assets/screenshots/dart_plugin.png)
 
 ---
 
