@@ -83,7 +83,7 @@ Flutter Doctor adalah tool untuk memeriksa apakah semua dependency sudah terinst
    ```
 3. Periksa output untuk melihat komponen mana yang perlu diinstal atau dikonfigurasi
 
-`[Screenshot: Output flutter doctor menampilkan checklist dependency]`
+![Paste path into New entry](assets/screenshots/flutter_doctor_1.png)
 
 ### Langkah 3.2: Mengatasi Issues (Jika Ada)
 Flutter Doctor akan menampilkan tanda:
@@ -101,7 +101,7 @@ Flutter Doctor akan menampilkan tanda:
 3. Setujui Terms and Conditions
 4. Klik **Download** untuk mengunduh installer
 
-`[Screenshot: Halaman download Android Studio]`
+![Paste path into New entry](assets/screenshots/android_studio_page.png)
 
 ### Langkah 4.2: Instalasi Android Studio
 1. Jalankan file installer yang sudah didownload (`android-studio-xxx.exe`)
@@ -110,7 +110,7 @@ Flutter Doctor akan menampilkan tanda:
 4. Klik **Next** hingga instalasi selesai
 5. Klik **Finish** untuk meluncurkan Android Studio
 
-`[Screenshot: Android Studio Setup Wizard - Installation Type]`
+![Paste path into New entry](assets/screenshots/android_installer.png)
 
 ### Langkah 4.3: Konfigurasi Awal Android Studio
 1. Pada welcome screen, pilih **Standard setup**
@@ -118,7 +118,8 @@ Flutter Doctor akan menampilkan tanda:
 3. Klik **Next** dan tunggu hingga Android Studio mendownload komponen yang diperlukan (SDK, emulator, dll)
 4. Klik **Finish** setelah setup selesai
 
-`[Screenshot: Android Studio - Downloading Components]`
+![Paste path into New entry](assets/screenshots/standard.png)
+![Paste path into New entry](assets/screenshots/accept.png)
 
 ---
 
@@ -129,18 +130,16 @@ Flutter Doctor akan menampilkan tanda:
 2. Pada welcome screen, klik **Plugins** di menu sebelah kiri
    - Atau jika sudah ada project terbuka: **File → Settings → Plugins**
 3. Klik tab **Marketplace**
+4. Pada kolom search, ketik `Flutter`
+5. Cari plugin **Flutter** (by flutter.io)
+6. Klik tombol **Install**
+7. Android Studio akan otomatis menyarankan untuk menginstal **Dart plugin** juga
+8. Klik **Yes** untuk menginstal Dart plugin
+9. Klik **Restart IDE** setelah instalasi selesai
 
-`[Screenshot: Android Studio - Plugins Marketplace]`
-
-### Langkah 5.2: Install Flutter Plugin
-1. Pada kolom search, ketik `Flutter`
-2. Cari plugin **Flutter** (by flutter.io)
-3. Klik tombol **Install**
-4. Android Studio akan otomatis menyarankan untuk menginstal **Dart plugin** juga
-5. Klik **Yes** untuk menginstal Dart plugin
-6. Klik **Restart IDE** setelah instalasi selesai
-
-`[Screenshot: Instalasi Flutter Plugin di Android Studio]`
+![Paste path into New entry](assets/screenshots/welcome_screen.png)
+![Paste path into New entry](assets/screenshots/flutter_plugin.png)
+![Paste path into New entry](assets/screenshots/dart_plugin.png)
 
 ---
 
