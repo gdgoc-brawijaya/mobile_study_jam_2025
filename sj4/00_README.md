@@ -17,6 +17,7 @@ Pada modul ini, kita akan belajar bagaimana aplikasi Flutter **terhubung ke clou
 | **Firebase Core** | `firebase_core` | Inisialisasi Firebase di Flutter |
 | **State Management** | `flutter_bloc` | Mengelola state Firestore |
 | **DI** | `get_it` | Dependency Injection |
+
 | **Model** | `freezed` + `json_serializable` | Data class & serialisasi |
 
 ---
